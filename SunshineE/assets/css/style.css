@@ -16,7 +16,7 @@ body {
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-    color: #3a3a3a;
+    color: rgb(37, 37, 37);
     font-family :'Comfortaa', sans-serif;
 
 }
@@ -24,11 +24,11 @@ body {
 /*header*/
 header {
     background :rgb(87, 198, 226);
-    padding :0 1rem;
+    padding :0 1em;
     position:fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px rgb(37, 37, 37);
 }
 
 header,a {
@@ -41,8 +41,20 @@ header,a {
 h1 {
     font-family: 'Concert One', sans-serif;
     text-transform: uppercase;
+}
 
+#menu {
+    font-size: 115%;
+    letter-spacing :2px;
+    list-style-type: none;
+}
 
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid rgb(37, 37, 37);
 }
 
 /*main*/
