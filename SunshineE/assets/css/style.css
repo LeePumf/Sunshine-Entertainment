@@ -98,17 +98,51 @@ footer {
     background :green;
 }
 
-/*media tablets and larger 768px+*/
+/*media tablets and larger (768px +)*/
 @media screen and (min-width:768px) {
 
     /*header*/
-    nac {
+    nav {
         display: block;
         position : relative;
         box-shadow: none;
         width :fit-content;
         padding-right : 1rem ;
-
     }
     
+    #menu {
+        display:flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 250%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+
+    }
+
+    /*main content*/
+
+    main {
+        margin-top: 79px;
+    }
+    
+}
+
+/*media tablets and larger (992px +)*/
+@media screen and (min-width:992px) {
+
+    #menu a:hover { 
+        border-bottom: 1px solid black;
+
+    }
+
 }
