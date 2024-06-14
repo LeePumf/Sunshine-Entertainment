@@ -57,6 +57,17 @@ h1 {
     border-bottom: 1px solid rgb(37, 37, 37);
 }
 
+/*nav dropdown menu*/
+nav {
+    position: absolute;
+    background-color:rgb(87, 198, 226) ;
+    width: 100%;
+    box-shadow: 0 2px 2px rgb(37, 37, 37);
+    padding : 0 1em;
+    left :0;
+    display :none;
+}
+
 /*main*/
 main {
     background:rgb(0, 183, 255);
