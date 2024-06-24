@@ -265,6 +265,10 @@ main {
 /*media screens greater than (1200+)*/
 @media screen and (min-width:1200px) {
     /*reasons section*/
+    #reason {
+        width :200%;
+    }
+    
     #why {
         display :flex;
         flex-direction :row;
@@ -273,12 +277,11 @@ main {
     #why > div {
         flex : 1;
         text-align :center;
+        align-items: center;
 
     }
 
-    #service-list > div {
-        text-align :center;
-    }
+    
 
     
     
